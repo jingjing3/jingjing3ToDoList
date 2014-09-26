@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TODO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_edit">ListEdits</string>
+    <string name="title_activity_list_edits">ListEdits</string>
+    <string name="title_activity_e_mail">E_mail</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_archiving">Archiving</string>
+    <string name="title_activity_blackboard">Blackboard</string>
+    <string name="note_list_item_menu_delete">delete</string>
+    <string name="note_list_item_menu_edit">edit</string>
+    <string name="title_activity_maisssn">MaisssnActivity</string>
+
+</resources>

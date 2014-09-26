@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jliang3.todo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListEditActivity"
+            android:label="@string/title_activity_list_edit" >
+        </activity>
+        <activity
+            android:name=".ListEditsActivity"
+            android:label="@string/title_activity_list_edits" >
+        </activity>
+        <activity
+            android:name=".E_mailActivity"
+            android:label="@string/title_activity_e_mail" >
+        </activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".ArchivingActivity"
+            android:label="@string/title_activity_archiving" >
+        </activity>
+        <activity
+            android:name=".BlackboardActivity"
+            android:label="@string/title_activity_blackboard" >
+        </activity>
+        <activity
+            android:name=".MaisssnActivity"
+            android:label="@string/title_activity_maisssn" >
+        </activity>
+    </application>
+
+</manifest>
