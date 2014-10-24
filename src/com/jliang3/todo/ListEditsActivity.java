@@ -35,7 +35,8 @@ public class ListEditsActivity extends Activity {
 	TextDbAdapter mdbHelper;
 	
 	/**modified the following code based on 
-	 * http://www.2cto.com/kf/201307/227935.html    */
+	 * http://www.2cto.com/kf/201307/227935.html   
+	 * @author liubin8095                       */
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -174,7 +175,9 @@ private void updateNote() {
 
 
 /**modified the following code based on 
- * http://hankyang.logdown.com/posts/220707-androidandroid-fragament-life-cycle-life-cycle   */
+ * http://hankyang.logdown.com/posts/220707-androidandroid-fragament-life-cycle-life-cycle  
+ * @author HANKYANG'S BLOG            */
+
 @Override
 protected void onPause() {
 	// TODO Auto-generated method stub

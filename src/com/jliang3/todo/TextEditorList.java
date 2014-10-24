@@ -3,9 +3,9 @@ package com.jliang3.todo;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/**modified the following code based on
- *http://blog.csdn.net/lyq19870515/article/details/19904913 2014-10-23
- *@author xiaoÌì__  */
+/** modified the following code based on
+   *http://blog.csdn.net/lyq19870515/article/details/19904913 
+   *@author xiaoÌì__  */
 
 public class TextEditorList {
 	protected ArrayList<TextEditor>texteditorList;

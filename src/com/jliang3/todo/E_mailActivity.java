@@ -37,8 +37,9 @@ public class E_mailActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	//modified the following code based on
-	//http://blog.csdn.net/zhuhaowolf/article/details/7416591 2014-10-23
+  /**modified the following code based on
+	*http://blog.csdn.net/zhuhaowolf/article/details/7416591 
+	*@author - zhuhaowolf    */
 	
 	public class MailSenderInfo  
 	{  

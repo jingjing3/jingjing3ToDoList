@@ -38,9 +38,10 @@ public class TextDbAdapter {
 	private Context mcontext;
 	
 	/**modified the following code based on 	
-	 *http://www.verydemo.com/demo_c131_i167547.html 2014-10-23
-	 *https://github.com/wangzhi01417/SimpleNotePad 2014-10-23
-	 *@author-wangzhi0417*/ 	
+	 *http://www.verydemo.com/demo_c131_i167547.html 
+	 *@author ½Ì³Ì
+	 *https://github.com/wangzhi01417/SimpleNotePad 
+	 *@author wangzhi0417             */ 	
 	
 	public TextDbAdapter(Context context) {
 		mcontext = context;
@@ -144,7 +145,8 @@ public class TextDbAdapter {
 	}
 
 /**modified the following code based on 	
- *http://hi.baidu.com/neverever888/item/850dc315d26a55f1dceecada 2014-10-23  */
+ *http://hi.baidu.com/neverever888/item/850dc315d26a55f1dceecada 
+ *@author NeverEver415           */
 	public boolean open() {
 		// TODO Auto-generated method stub
 		return false;

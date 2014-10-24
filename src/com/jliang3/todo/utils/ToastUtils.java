@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 /**https://github.com/wangzhi01417/SimpleNotePad 2014-10-23
- *@author-wangzhi0417 	*/
+ *@author wangzhi0417 	     */
 
 public class ToastUtils {
 	public static void ShowShortToasMsg(Context context,String msg){

@@ -34,9 +34,10 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
 /**modified the following code based on 	
- *http://www.verydemo.com/demo_c131_i167547.html 2014-10-23
- *https://github.com/wangzhi01417/SimpleNotePad 2014-10-23
-   @author-wangzhi0417*/
+ *http://www.verydemo.com/demo_c131_i167547.html 
+ *@author ½Ì³Ì
+ *https://github.com/wangzhi01417/SimpleNotePad 
+ *@author wangzhi0417*/
 
 public class ListActivity extends Activity {
 	private static String TAG = "NoteListActivity";
@@ -78,7 +79,8 @@ public class ListActivity extends Activity {
 	}
 	
 	/**modified the following code based on 
-     *http://www.phonesdevelopers.com/1692572/     */
+     *http://www.phonesdevelopers.com/1692572/   
+     *@author typ587        */
 	
 @Override
 protected void onStart() {
