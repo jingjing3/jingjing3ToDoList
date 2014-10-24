@@ -37,6 +37,9 @@ public class E_mailActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
+	//modified the following code based on
+	//http://blog.csdn.net/zhuhaowolf/article/details/7416591 2014-10-23
+	
 	public class MailSenderInfo  
 	{  
 	      
@@ -48,8 +51,11 @@ public class E_mailActivity extends Activity {
 	    private String subject;  
 	    private String content;  
 	        
-	    private String[] attachFileNames;  
-	            
+	    private String[] attachFileNames; 
+	    
+	    /**https://github.com/nileader/common-toolkit/blob/master/src/main/java/common/toolkit/java/entity/email/MailEntity.java        
+	     *@author-ÒøÊ± yinshi.nc@taobao.com  */
+	    
 	    public Properties getProperties(){      
 	    	Properties p = new Properties();     
 	        p.put("mail.smtp.host", this.mailServerHost);     

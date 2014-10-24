@@ -7,7 +7,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;    
 
 import com.jliang3.todo.E_mailActivity.MailSenderInfo;
-/* @author Alan  
+
+/** modified the following code based on 
+ * http://blog.csdn.net/aassdd_zz/article/details/8204407  2014-10-23
+ * 
 */    
 	public class Sendmail {  
 	 
